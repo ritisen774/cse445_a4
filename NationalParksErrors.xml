@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<NationalPark xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ritisen774.github.io/cse445_a4/NationalParks.xsd">
+<NationalPark xmlns="http://www.asu.edu/cse445/NationalParks"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://www.asu.edu/cse445/NationalParks https://ritisen774.github.io/cse445_a4/NationalParks.xsd">
   <NationalPark Rating="4.9">
     <Name>Grand Canyon</Name>
     <Name>Duplicate Name Park</Name>
@@ -31,7 +33,6 @@
       <City>Yosemite National Park</City>
       <State>CA</State>
       <Zip>95389</Zip>
-    </Address>
   </NationalPark>
   <NationalPark>
     <Name>Zion</Name>
